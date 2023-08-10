@@ -11,7 +11,7 @@ export class ApiPokemonService {
     this.getPokemons();
    }
   async getPokemons() {
-    const request = await this.httpClient.get<any>(' https://pokeapi.co/api/v2/pokemon?limit=30').toPromise();
+    const request = await this.httpClient.get<any>('https://pokeapi.co/api/v2/pokemon?limit=1010').toPromise();
     
     this.pokemons = request.results;
     console.log(this.pokemons);
