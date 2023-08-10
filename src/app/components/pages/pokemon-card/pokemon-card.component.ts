@@ -7,9 +7,16 @@ import { Component, Input } from '@angular/core';
 })
 export class PokemonCardComponent {
   @Input()
-  pokemon: string | undefined;
+  pokemon: any | undefined;
   @Input()
   number!: number;
+
+  public name:string = "";
+  ngOnInit():void{
+    this.name = this.pokemon.name;
+  }
+
+
   getImagePokemon(){
     const numberFormat = this.leadingZero(this.number);
     return `https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${numberFormat}.png`
