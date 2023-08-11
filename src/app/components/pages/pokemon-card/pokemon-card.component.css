@@ -44,7 +44,7 @@ h2{
     text-align: center;
     text-transform: capitalize;
 }
-.typeBug{
+.type-bug{
     background:-webkit-linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
     background:-ms-linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
     background:-moz-linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
@@ -53,7 +53,7 @@ h2{
     background-color:#729f3f;
     color:#fff;
 }
-.typeDark{
+.type-dark{
     background:-webkit-linear-gradient(180deg, #707070 50%, #707070 50%);
     background:-ms-linear-gradient(180deg, #707070 50%, #707070 50%);
     background:-moz-linear-gradient(180deg, #707070 50%, #707070 50%);
@@ -62,7 +62,7 @@ h2{
     background-color:#707070;
     color:#fff;
 }
-.typeDragon{
+.type-dragon{
     background:-webkit-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
     background:-ms-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
     background:-moz-linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
@@ -71,7 +71,7 @@ h2{
     background-color:#53a4cf;
     color:#fff;
 }
-.typeElectric{
+.type-electric{
     background:-webkit-linear-gradient(180deg, #eed535 50%, #eed535 50%);
     background:-ms-linear-gradient(180deg, #eed535 50%, #eed535 50%);
     background:-moz-linear-gradient(180deg, #eed535 50%, #eed535 50%);
@@ -80,7 +80,7 @@ h2{
     background-color:#eed535;
     color:#212121;
 }
-.typeFairy{
+.type-fairy{
     background:-webkit-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
     background:-ms-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
     background:-moz-linear-gradient(180deg, #fdb9e9 50%, #fdb9e9 50%);
@@ -89,7 +89,7 @@ h2{
     background-color:#fdb9e9;
     color:#212121;
 }
-.typeFighting{
+.type-fighting{
     background:-webkit-linear-gradient(180deg, #d56723 50%, #d56723 50%);
     background:-ms-linear-gradient(180deg, #d56723 50%, #d56723 50%);
     background:-moz-linear-gradient(180deg, #d56723 50%, #d56723 50%);
@@ -98,7 +98,7 @@ h2{
     background-color:#d56723;
     color:#fff;
 }
-.typeFire{
+.type-fire{
     background:-webkit-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
     background:-ms-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
     background:-moz-linear-gradient(180deg, #fd7d24 50%, #fd7d24 50%);
@@ -107,7 +107,7 @@ h2{
     background-color:#fd7d24;
     color:#fff;
 }
-.typeFlying{
+.type-flying{
     background:-webkit-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
     background:-ms-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
     background:-moz-linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
@@ -116,7 +116,7 @@ h2{
     background-color:#3dc7ef;
     color:#212121;
 }
-.typeGhost{
+.type-ghost{
     background:-webkit-linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%);
     background:-ms-linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%);
     background:-moz-linear-gradient(180deg, #7b62a3 50%, #7b62a3 50%);
@@ -125,7 +125,7 @@ h2{
     background-color:#7b62a3;
     color:#fff;
 }
-.typeGrass{
+.type-grass{
     background:-webkit-linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%);
     background:-ms-linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%);
     background:-moz-linear-gradient(180deg, #9bcc50 50%, #9bcc50 50%);
@@ -134,7 +134,7 @@ h2{
     background-color:#9bcc50;
     color:#212121;
 }
-.typeGround{
+.type-ground{
     background:-webkit-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
     background:-ms-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
     background:-moz-linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
@@ -143,7 +143,7 @@ h2{
     background-color:#f7de3f;
     color:#212121;
 }
-.typeIce{
+.type-ice{
     background:-webkit-linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%);
     background:-ms-linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%);
     background:-moz-linear-gradient(180deg, #51c4e7 50%, #51c4e7 50%);
@@ -152,7 +152,7 @@ h2{
     background-color:#51c4e7;
     color:#212121;
 }
-.typeNormal{
+.type-normal{
     background:-webkit-linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%);
     background:-ms-linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%);
     background:-moz-linear-gradient(180deg, #a4acaf 50%, #a4acaf 50%);
@@ -161,7 +161,7 @@ h2{
     background-color:#a4acaf;
     color:#212121;
 }
-.typePoison{
+.type-poison{
     background:-webkit-linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%);
     background:-ms-linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%);
     background:-moz-linear-gradient(180deg, #b97fc9 50%, #b97fc9 50%);
@@ -170,7 +170,7 @@ h2{
     background-color:#b97fc9;
     color:#fff;
 }
-.typePsychic{
+.type-psychic{
     background:-webkit-linear-gradient(180deg, #f366b9 50%, #f366b9 50%);
     background:-ms-linear-gradient(180deg, #f366b9 50%, #f366b9 50%);
     background:-moz-linear-gradient(180deg, #f366b9 50%, #f366b9 50%);
@@ -179,7 +179,7 @@ h2{
     background-color:#f366b9;
     color:#fff;
 }
-.typeRock{
+.type-rock{
     background:-webkit-linear-gradient(180deg, #a38c21 50%, #a38c21 50%);
     background:-ms-linear-gradient(180deg, #a38c21 50%, #a38c21 50%);
     background:-moz-linear-gradient(180deg, #a38c21 50%, #a38c21 50%);
@@ -188,7 +188,7 @@ h2{
     background-color:#a38c21;
     color:#fff;
 }
-.typeSteel{
+.type-steel{
     background:-webkit-linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%);
     background:-ms-linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%);
     background:-moz-linear-gradient(180deg, #9eb7b8 50%, #9eb7b8 50%);
@@ -197,7 +197,7 @@ h2{
     background-color:#9eb7b8;
     color:#212121;
 }
-.typeWater{
+.type-water{
     background:-webkit-linear-gradient(180deg, #4592c4 50%, #4592c4 50%);
     background:-ms-linear-gradient(180deg, #4592c4 50%, #4592c4 50%);
     background:-moz-linear-gradient(180deg, #4592c4 50%, #4592c4 50%);

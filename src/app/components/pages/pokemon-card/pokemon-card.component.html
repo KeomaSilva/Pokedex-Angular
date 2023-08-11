@@ -3,9 +3,7 @@
     <h3>Nº: {{leadingZero(number)}}</h3>
     <h2 class="pokemonName">{{name}}</h2>
     <div class="pokemonType">
-        <span class="typeDragon">Grass
-        </span>
-        <span class="typeGhost">Poison
+        <span *ngFor="let type of pokemon.types" [class]="'type-' + type.type.name.toLowerCase()">{{type.type.name}}
         </span>
     </div>
 </div>
