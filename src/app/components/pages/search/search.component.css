@@ -14,14 +14,14 @@
     background-color: var(--bgColorYellow);
 }
 .searchName{
-    width: 40%;
+    width: fit-content;
     min-width: 300px;
 }
 .searchName input{
     width: 100%;
 }
 .searchTypes{
-    width: 60%;
+    width: fit-content;
     max-width: 300px;
     display: flex;
     justify-content: flex-start;
@@ -34,27 +34,18 @@
 }
 span{
     margin-left: 15px;
-    /* background-color: chocolate; */
 }
 .searchSubmit{
-    width: 25px;
-    height: 25px;
-    background-color: var(--bgColorRed);
+    padding: 5px;
     color: var(--bgColorBlue);
-    font-size: x-large;
-    border-radius: 50%;
-    text-align: center;
-    display: grid;
-    place-items: center;
-}
-.searchSubmit p{
-    padding: 0px 0px;
+    cursor: pointer;
 }
 input{
     border: 2px solid var(--bgCardGray);
     border-radius: 5px;
     padding: 2px 5px;
     text-align: start;
+    min-width: 100px;
 }
 input:focus{
     outline-style: none;
