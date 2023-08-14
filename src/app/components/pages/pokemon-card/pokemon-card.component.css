@@ -39,6 +39,7 @@ h2{
     font-size: small;
 }
 .pokemonType span{
+    min-width: 60px;
     padding: 0px 5px;
     border-radius: 5px;
     text-align: center;
