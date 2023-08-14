@@ -11,6 +11,7 @@ import { PokemonCardComponent } from './components/pages/pokemon-card/pokemon-ca
 import { SearchComponent } from './components/pages/search/search.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ApiPokemonService } from './service/api-pokemon.service';
+import { DetailsComponent } from './components/pages/pages/details/details.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ApiPokemonService } from './service/api-pokemon.service';
     HomeComponent,
     PokemonListComponent,
     PokemonCardComponent,
-    SearchComponent
+    SearchComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
