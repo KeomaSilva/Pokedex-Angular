@@ -9,7 +9,7 @@
     margin: 5px auto;
 }
 .pokemonCard:hover{
-    box-shadow: 0px 0px 10px 1px var(--bgColorBlue);
+    box-shadow: 0px 0px 0px 2px var(--colorH3);
 }
 .pokemonCard img{
     max-width: 150px;

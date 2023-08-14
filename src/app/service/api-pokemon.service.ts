@@ -7,16 +7,17 @@ import { Injectable } from '@angular/core';
 export class ApiPokemonService {
   pokemons: any = [];
   types = [];
+  names:Array<string> = [];
   
 
   constructor( private httpClient:HttpClient) {
     this.getPokemons();
+    // this.getNames();
    }
   async getPokemons() {
     const request = await this.httpClient.get<any>('https://pokeapi.co/api/v2/pokemon?limit=9').toPromise();
     
     this.pokemons = request.results;
-    // console.log(request);
     this.getTypes();
   }
 
@@ -29,13 +30,25 @@ export class ApiPokemonService {
       console.log(typesPokemon);
       
     });
+    
+    // getNames(){
+    //   const request = this.httpClient.get<any>('https://pokeapi.co/api/v2/pokemon?limit=1010').toPromise();
+    //   this.names = [];
+    //   request.then((item) => {
+    //     if(item.results){
+    //       item.results.forEach((item:any) => {
+    //         this.names.push(item.name);
+    //       })
+    //     }
+    //   }).finally(() => console.log(this.names));
+    // }
+    
+    
+    // https://pokeapi.co/api/v2/type/
+    // resulsts.name
+
+
     console.log(this.pokemons);
-    
-    
-    // this.types = typesPokemon.results;
-    
-    
-    
   }
 }
  
