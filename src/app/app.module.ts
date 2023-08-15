@@ -13,6 +13,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { ApiPokemonService } from './service/api-pokemon.service';
 import { DetailsComponent } from './components/pages/details/details.component';
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +25,7 @@ import { DetailsComponent } from './components/pages/details/details.component';
     PokemonListComponent,
     PokemonCardComponent,
     SearchComponent,
-    DetailsComponent
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,
